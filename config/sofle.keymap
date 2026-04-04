@@ -27,6 +27,60 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <13 25>;
+        };
+
+        at_sign {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <14 26>;
+        };
+
+        hash {
+            bindings = <&kp POUND>;
+            key-positions = <15 27>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <16 28>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <17 29>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <18 30>;
+        };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <19 31>;
+        };
+
+        asterisc {
+            bindings = <&kp ASTERISK>;
+            key-positions = <20 32>;
+        };
+
+        left_parent {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <21 33>;
+        };
+
+        right_parent {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <22 34>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
