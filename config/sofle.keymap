@@ -97,7 +97,7 @@
             #binding-cells = <0>;
             bindings = <&mo 2>, <&mo 3>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <500>;
         };
     };
 
