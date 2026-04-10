@@ -155,11 +155,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans         &kp CAPSLOCK  &trans     &trans     &trans     &trans                    &mkp LCLK      &mkp RCLK                 &mkp MCLK      &kp HOME  &kp END        &trans
-&kp LA(TAB)    &trans        &kp LG(W)  &trans     &trans     &trans                    &kp LG(P)      &kp LA(LS(LG(UP_ARROW)))  &trans         &trans    &trans         &trans
-&kp LALT       &kp LG(A)     &kp LG(S)  &kp LG(D)  &kp LG(F)  &trans                    &kp LG(LS(P))  &kp LA(LS(DOWN_ARROW))    &kp LG(LS(K))  &trans    &kp DEL        &kp BSPC
-&kp LG(LS(Z))  &kp LG(Z)     &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &trans    &trans  &kp LG(SPACE)  &trans                    &trans         &trans    &kp LG(GRAVE)  &kp LG(SLASH)
-                             &trans     &trans     &trans     &trans  &trans    &trans  &trans         &trans                    &trans         &trans
+&trans         &kp CAPSLOCK  &trans     &trans     &kp LG(LS(T))  &trans                    &mkp LCLK      &mkp RCLK                 &mkp MCLK      &kp HOME  &kp END        &trans
+&kp LA(TAB)    &trans        &kp LG(W)  &trans     &kp LG(T)      &trans                    &kp LG(P)      &kp LA(LS(LG(UP_ARROW)))  &trans         &trans    &trans         &trans
+&kp LALT       &kp LG(A)     &kp LG(S)  &kp LG(D)  &kp LG(F)      &trans                    &kp LG(LS(P))  &kp LA(LS(DOWN_ARROW))    &kp LG(LS(K))  &trans    &kp DEL        &kp BSPC
+&kp LG(LS(Z))  &kp LG(Z)     &kp LG(X)  &kp LG(C)  &kp LG(V)      &trans  &trans    &trans  &kp LG(SPACE)  &trans                    &trans         &trans    &kp LG(GRAVE)  &kp LG(SLASH)
+                             &trans     &trans     &trans         &trans  &trans    &trans  &trans         &trans                    &trans         &trans
             >;
 
             sensor-bindings =
